@@ -1,0 +1,36 @@
+img {
+    height: 250px;
+    width: 400px;
+}
+
+
+h1 , h2, p, li{
+    font-family: "Times New Roman", Times, serif;
+    color: floralwhite;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 1rem 2rem; /* 3 */
+    background: aliceblue;
+  }
+  
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+  }
+  
+nav li {
+    padding-left: 1rem; /* 7! */
+  }
+
+nav h1, a {
+    color: black;
+    text-decoration: none;
+}
+
